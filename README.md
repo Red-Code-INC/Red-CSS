@@ -1,2 +1,3 @@
 # Red-CSS
-Red Script's more <i>styleish</i> brother
+
+Red Script's <i>stylish</i> brother 
