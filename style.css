@@ -1,11 +1,11 @@
 a{
-  color:red
+  color:red;
 }
 hide{
-  display:none
+  display:none;
 }
 red{
-  color:red
+  color:red;
 }
 /* latin-ext */
 @font-face {
@@ -28,9 +28,9 @@ pjo{
   display:block
 }
 .button{
-  overflow:none
-  border:none
-  outline:none
+  overflow:none;
+  border:none;
+  outline:none;
 }
 
 
