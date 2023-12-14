@@ -1,5 +1,5 @@
 a{
-  color:blue;
+  color:red;
 }
 hide{
   display:none;
@@ -32,6 +32,8 @@ pjo{
   border:none;
   outline:none;
 }
-
+blue{
+  color:blue;
+}
 
 
