@@ -1,0 +1,75 @@
+#futuristic{
+    border-style:outset;
+}
+#default{
+    border-style:outset;
+}
+#light{
+    border-style:outset;
+}
+#dark{
+    border-style:outset;
+}
+#reverse{
+    border-style:outset;
+}
+#retro{
+    border-style:outset;
+}
+#inverse{
+    border-style:outset;
+}
+#secondary{
+    border-style:outset;
+}
+#futuristic2{
+   border-style:outset;
+}
+#reverse2{
+    border-style:outset;
+}
+#isecondary{
+    border-style:outset;
+}
+#retro2{
+    border-style:outset;
+}
+#secondreverse{
+    border-style:outset;
+}
+#isecondreverse{
+    border-style:inset;
+}
+body{
+    background-color:yellow;
+    color:black;
+}
+a{
+    color:black;
+}
+.tab {
+  overflow: hidden;
+  border: 1px none #ccc;
+  background-color:black;
+  color:yellow;
+}
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  color:yellow;
+}
+.tab button:hover {
+  background-color:#ffff19;
+  color:black;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color:#ffff19;
+  color:black;
+}

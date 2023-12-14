@@ -1,0 +1,102 @@
+#futuristic{
+    border-style:outset;
+}
+#default{
+    border-style:outset;
+}
+#light{
+    border-style:outset;
+}
+#dark{
+    border-style:outset;
+}
+#reverse{
+    border-style:outset;
+}
+#retro{
+    border-style:outset;
+}
+#inverse{
+    border-style:outset;
+}
+#secondary{
+    border-style:outset;
+}
+#futuristic2{
+   border-style:outset;
+}
+#reverse2{
+    border-style:inset;
+}
+#isecondary{
+    border-style:outset;
+}
+#retro2{
+    border-style:outset;
+}
+#secondreverse{
+    border-style:outset;
+}
+#isecondreverse{
+    border-style:outset;
+}
+body{
+    background-color:cyan;
+    color:white;
+}
+a{
+    color:white;
+}
+.tab {
+  overflow: hidden;
+  border: 1px none #ccc;
+  background-color:white;
+  color:cyan;
+}
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  color:cyan;
+}
+.tab button:hover {
+  background-color:#19ffff;
+  color:white;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color:#19ffff;
+  color:white;
+}
+.accordion {
+  background-color: white;
+  color: #444;
+  cursor: pointer;
+  padding: 0px;
+  width: 100%;
+  text-align: left;
+  border: solid cyan;
+  outline: none;
+  transition: 0.4s;
+  color:cyan;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: cyan;
+  color:white;
+  border:none;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: inherit;
+  display: none;
+  overflow: hidden;
+}
