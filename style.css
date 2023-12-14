@@ -5,7 +5,7 @@ hide{
   display:none;
 }
 red{
-  color:blue;
+  color:red;
 }
 /* latin-ext */
 @font-face {
@@ -35,5 +35,7 @@ pjo{
 blue{
   color:blue;
 }
-
+test{
+color:yellow;
+}
 
