@@ -1,0 +1,106 @@
+h1{
+    color:cyan;
+    border:solid cyan;
+}
+a{
+    color:orange;
+}
+#futuristic{
+    border-style:inset;
+}
+#default{
+    border-style:outset;
+}
+#light{
+    border-style:outset;
+}
+#dark{
+    border-style:outset;
+}
+#reverse{
+    border-style:outset;
+}
+#retro{
+    border-style:outset;
+}
+#inverse{
+    border-style:outset;
+}
+#secondary{
+    border-style:outset;
+}
+#futuristic2{
+   border-style:outset;
+}
+#reverse2{
+    border-style:outset;
+}
+#isecondary{
+    border-style:outset;
+}
+#retro2{
+    border-style:outset;
+}
+#secondreverse{
+    border-style:outset;
+}
+#isecondreverse{
+    border-style:outset;
+}
+body{
+    background-color:black;
+    color:cyan;
+}
+.tab {
+  overflow: hidden;
+  border: 1px none #ccc;
+  background-color:black;
+  color:cyan;
+}
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  color:cyan;
+}
+.tab button:hover {
+  background-color:cyan;
+  color:black;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color:cyan;
+  color:black;
+}
+.accordion {
+  background-color: inherit;
+  color: #444;
+  cursor: pointer;
+  padding: 0px;
+  width: 100%;
+  text-align: left;
+  border: solid cyan;
+  outline: none;
+  transition: 0.4s;
+  color:cyan;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: cyan;
+  color:black;
+  border:none;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: inherit;
+  display: none;
+  overflow: hidden;
+}
