@@ -1,0 +1,4 @@
+.schoolsitance-logo::before{
+  content:url("./icons/schoosistancelogo.png")
+  width:20px
+}
