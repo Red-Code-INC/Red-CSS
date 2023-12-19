@@ -1,3 +1,5 @@
 .schoolsistance-logo::before{
-  content:url("./icons/schoolsistancelogo.png")
+  content:url("./icons/schoolsistancelogo.svg");
+  color:black;
+  width:20px;
 }
