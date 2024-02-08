@@ -2,12 +2,12 @@
     font-family: 'Dalek';
     font-style: normal;
     font-weight: 400;
-    src: url('./DALEK__.ttf') format('truetype');
+    src: url('./DALEK___.ttf') format('truetype');
 }
 @font-face {
     font-family: 'Dalek';
     font-style: normal;
     font-weight: 400;
-    src: url('DALEK__.ttf') format('truetype');
+    src: url('./DALEK___.ttf') format('truetype');
 }
 
