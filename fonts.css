@@ -2,12 +2,12 @@
     font-family: 'Dalek';
     font-style: normal;
     font-weight: 400;
-    src: url('https://fonts.cdnfonts.com/s/5699/DALEK___.woff') format('woff');
+    src: url('./DALEK__.ttf') format('truetype');
 }
 @font-face {
     font-family: 'Dalek';
     font-style: normal;
     font-weight: 400;
-    src: url('https://fonts.cdnfonts.com/s/5699/DALEK___.woff') format('woff');
+    src: url('DALEK__.ttf') format('truetype');
 }
 
