@@ -1,0 +1,136 @@
+@media screen and (max-width:600px){
+    .cdn{
+        width:350px;
+        font-size:70%;
+        text-align:center;
+        height:150%;
+        background-color:#f1f1f1;
+        border-radius:20px;
+        /*border-bottom:4px solid #f1f1f1;*/
+    }
+    .cdnlink{
+        vertical-align:super;
+        text-align:center;
+        width:350px;
+        font-size:63%;
+        background-color:transparent;
+        border:none;
+        color:red;
+    }
+    .github{
+    display:none;
+    }
+    .br{
+        display:none;
+    }
+    .minigithub{
+        display:inline-block;
+        float:right;
+        font-size:30px;
+        font-family:Red-Icons;
+        margin-right:3px;
+        color:black;
+        text-decoration:none;
+    }
+    .copybutton{
+        position:relative;
+        left:35%;
+    }
+    #othersites{
+        text-align:center;
+    }
+    .site-btns{
+        color:white;
+        background-color:red;
+        font-family:Red-Icons;
+    }
+}
+@media screen and (min-width:601px){
+    .cdn{
+        width:510px;
+        border-radius:20px;
+        font-size:70%;
+        /*background-color:red;*/
+        background-color:#f1f1f1;
+        border-left:10px solid #f1f1f1;
+        border-right:10px solid #f1f1f1;
+        /*border-bottom:4px solid #f1f1f1;*/
+    }
+    .cdnlink{
+        vertical-align:super;
+        width:480px;
+        background-color:transparent;
+        border:none;
+        color:red;
+    }
+    .github{
+        display:block;
+    }
+    .br{
+        display:initial;
+    }
+    .githublink{
+        text-align:center;
+    }
+    .minigithub{
+        display:none;
+    }
+    .copybutton{
+        float:right;
+    }
+    #copybutton{
+        font-size:110%;
+    }
+}
+@media screen and (min-width:701px){
+    .cdn{
+        width:730px;
+        border-radius:20px;
+        font-size:100%;
+        /*background-color:red;*/
+        background-color:#f1f1f1;
+        border-left:10px solid #f1f1f1;
+        border-right:10px solid #f1f1f1;
+        /*border-bottom:4px solid #f1f1f1;*/
+    }
+    .cdnlink{
+        vertical-align:super;
+        width:710px;
+        background-color:transparent;
+        border:none;
+        color:red;
+    }
+    .github{
+        display:block;
+    }
+    .br{
+        display:initial;
+    }
+    .githublink{
+        text-align:center;
+    }
+    .minigithub{
+        display:none;
+    }
+    .copybutton{
+        float:right;
+    }
+    #copybutton{
+        font-size:110%;
+    }
+}
+@media screen and (min-width:1400px){
+    .cdn{
+        width:730px;
+        height:150%;
+        /*border-bottom:4px solid #f1f1f1;*/
+    }
+    .cdnlink{
+        vertical-align:super;
+        width:760px;
+        font-size:;
+        background-color:transparent;
+        border:none;
+        color:red;
+    }
+}

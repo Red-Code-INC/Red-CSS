@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+        <title>Red CSS</title>
+        <!--<link href="https://cdn.jsdelivr.net/gh/Red-Code-INC/Red-CSS@1.3.3/font.css" rel="stylesheet">-->
+        <link href="https://cdn.jsdelivr.net/gh/Red-Code-INC/Red-Icons@1.2.0/icons.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link href="cover.css" rel="stylesheet">
+        <link rel="shortcut icon" href="https://codehs.com/uploads/6c169d99b5093ee24b144e1a69d49e6d">
+        <script>
+            if (window.location.href.includes("/index.html")){
+                    window.location.href = window.location.href.replaceAll("/index.html","")
+                            }
+        </script>
+        <style></style>
+    </head>
+    <body>
+        <div class="slide"></div>
+        <div id="mainsite" class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+            <header class="masthead mb-auto">
+                <div class="inner">
+                    <h3 class="masthead-brand">
+                        <i class="rc-redcss"></i>
+                        <red>Red</red>
+                        CSS
+                    </h3>
+                    <nav class="nav nav-masthead justify-content-center">
+                        <at class="nav-link" onclick="tab2(event,'home','tabcontent','nav-link')" name="defaultOpen">Home</at>
+                        <at class="nav-link" onclick="tab2(event,'tab2','tabcontent','nav-link')">About</at>
+                        <at class="nav-link" onclick="tab2(event,'tab3','tabcontent','nav-link')">Features</at>
+                        <at class="nav-link" onclick="tab2(event,'tab4','tabcontent','nav-link')">Settings</at>
+                    </nav>
+                </div>
+            </header>
+            <br>
+            <main role="main" class="inner cover">
+                <div id="home" class="tabcontent">
+                    <h1 class="cover-heading">
+                        <i class="rc-redcss" style="width:40px"></i>
+                        <red>Red</red>
+                        CSS
+                    </h1>
+                    <p class="lead">
+                        The 
+                        <red style="font-weight:bold;font-style:italic;">Reddest</red>
+                        CSS Library Around
+                    </p>
+                    <div class="cdn">
+                        <redicons>globe-3</redicons>
+                        CDN Link:
+                        <span class="copybutton noSelect">
+                        <span class='tooeltip'>
+                        <span onclick="copy('cdnlnk')" class='cdnbtn' onmouseout='outFunc()'>
+                        <span class='tooeltiptext' id='myTooeltip'>Copy to Clipboard</span>
+                        <span id='copyicon' style='font-family:Red-Icons;'>duplicate</span></span>
+                        </span>
+                        </span>
+                        <br>
+                        <span class="cdnlink"><input id="cdnlnk" readonly="true" value="<link href='https://cdn.jsdelivr.net/gh/Red-Code-INC/Red-CSS@1.3.3/style.css' rel='stylesheet'>">&ltlink href="https://cdn.jsdelivr.net/gh/Red-Code-INC/Red-CSS@1.3.3/style.css rel="sylesheet"></red></span>
+                    </div>
+                    <div class="br">&nbsp</div>
+                    <div class="github">
+                        <span class="githublink">
+                            <redicons>github</redicons>
+                            <a href="https://github.com/Red-Code-INC/Red-CSS">Github Repository</a>
+                        </span>
+                    </div>
+                    <br>
+                    <div id="othersites">
+                        <h5>Checkout Our Other Sites</h5>
+                        <button class="site-btns ri-chevron-left" onclick="prev()"></button>
+                        <div class="site-optns">
+                            <div class="site-option" id="first"><a id="Codelink" href="">Red Code</a></div>
+                            <div class="site-option"><a id="Scriptlink" href="">Red Script</a></div>
+                            <div class="site-option"><a id="HTMLlink" href="">Red HTML</a></div>
+                            <div class="site-option"><a id="Iconslink" href="">Red Icons</a></div>
+                            <!--<div class="site-option"></div>-->
+                        </div>
+                        <button class="site-btns ri-chevron-right" onclick="next()"></button>
+                    </div>
+                    <div class="heightcorrection"></div>
+                    <!--<p class="lead">-->
+                    <!--  <a href="#" class="btn btn-lg btn-secondary">Learn more</a>-->
+                    <!--</p>-->
+                </div>
+                <div id="tab2" class="tabcontent">
+                    <h1 class="cover-heading">
+                        <redicons about>info</redicons>
+                        About
+                    </h1>
+                    <p class="lead">Red CSS is a simple CSS library inspired by Bootstrap</p>
+                    <p class="lead">Red CSS is Red Script's younger brother, its also the more <i>stylish</i> brother</p>
+                    <p class="lead">
+                        Red CSS is the second oldest library in the Red Code Family (it goes Red Script, Red CSS, Red HTML, 
+                        Red logos
+                        <span class='tooeltip'>
+                            <span onclick="copy('cdnlnk')" class='cdnbtn' onmouseout='outFunc()'>
+                                <span class='tooeltiptext' id='myTooeltip2'>
+                                <span style="color:red">NOTE</span>:
+                                Red Logos is Discontinued and is used by Red Icons
+                                </span>
+                                <sup alc style="color:red;font-size:70%">
+                                    <redicons>info-circle</redicons>
+                                </sup>
+                            </span>
+                        </span>
+                        , Red Icons, Red X, Red Python, Red Java, Red C,Red Plus, and Red Sharp)
+                    </p>
+                    <div class="heightcorrection"></div>
+                </div>
+                <div id="tab3" class="tabcontent">
+                    <h1 class="cover-heading">Features</h1>
+                    <p class="lead">Red CSS has many helpful CSS presets</p>
+                    <div class="mintabs">
+                        <button class="mtab" onclick="tab2(event,'tagsattr','mintab','mtab')" name="defaultOpen" style="font-size:18px;">Tags</button>
+                        <button class="mtab" onclick="tab2(event,'fontstab','mintab','mtab')" style="font-size:18px;">Fonts</button>
+                    </div>
+                    <br>
+                    <br>
+                    <div id="tagsattr" class="mintab">
+                        <div class="feature">
+                            <h5>Bold,Italic,Underline</h5>
+                            <p class="lead" style="font-size:80%">Red CSS has the Bold,Italic, and Underline, Tags,Classes, and Attributes
+                                <br>
+                                Tags: <code>&ltbold>&lt/bold></code>,<code>&ltitalic>&lt/italic></code>,<code>&ltunderline>&lt/underline></code>
+                                <br>
+                                Classes:<code>&ltdiv <span style="color:orange">class</span>=<span style="color:blue">"bold italic underline"</span>>&lt/div></code>
+                                <br>
+                                Attributes:<code>&ltdiv <span style="color:orange">bold italic underline</span>>&lt/div></code>
+                            </p>
+                        </div>
+                        <div class="feature">
+                            <h5>PJO,pjo,CHB,chb</h5>
+                            <p class="lead" style="font-size:80%">
+                                Tags:<code>&ltpjo>&lt/pjo></code> or <code>&ltPJO>&lt/PJO></code>,<code>&ltCHB>&lt/CHB></code> or <code>&ltchb>&lt/chb></code>
+                                <br>
+                                Classes: <code>&ltdiv <span style="color:orange">class</span>=<span style="color:blue">"PJO(sam as pjo) CHB(same as chb)"</span>&lt/div></code>
+                                <br>
+                                Attributes:<code>&ltdiv <span style="color:orange">PJO (or pjo) CHB (or chb)</span>>&lt/div></code>
+                            </p>
+                        </div>
+                    </div>
+                    <div id="fontstab" class="mintab">
+                        <div class="feature">
+                            <h5>Metamorphous</h5>
+                            <p class="lead" style="font-size:80%">
+                                this is the font used for the cover of the Percy Jackson And The Olympians Book Series
+                                <br>
+                                Example: 
+                                <pjo>PERCY JACKSON AND THE OLYMPIANS</pjo>
+                            </p>
+                        </div>
+                        <div class="feature">
+                            <h5>Dalek</h5>
+                            <p class="lead" style="font-size:80%">
+                                this is the font used on the Camp Half-Blood Logo
+                                <br>
+                                Example: 
+                                <chb>CAMP HALF-BLOOD</chb>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="tab4" class="tabcontent">
+                    <h1>
+                        <redicons>
+                            <red>settings</red>
+                        </redicons>
+                        Settings
+                    </h1>
+                    <p></p>
+                    <div class="heightcorrection"></div>
+                </div>
+            </main>
+            <!--<footer class="mastfoot mt-auto">-->
+            <!--  <div class="inner">-->
+            <!--        <p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>-->
+            <!--  </div>-->
+            <!--</footer>-->
+        </div>
+        <script src="script.js"></script>
+        <script src="move.js"></script>
+        <script src="links.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
+</html>
